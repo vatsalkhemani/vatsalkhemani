@@ -1,45 +1,57 @@
-<h1> Hey, I'm Vatsal 👋 </h1>
+# Hey, I'm Vatsal
 
-Product Manager at Microsoft, currently on the **M365 Copilot** team. Previously built AI agents and automation platforms for enterprise commerce.
+I love building and tinkering with new tools and concepts. Building is the best way I learn, and the learnings feed back into everything I do, including the products I ship at work.
 
-I'm a builder at heart. Playing around with AI on the side gives me a deeper understanding of the technology, which I then try to bring back to the products I build at work. Everything here is real, working code you can clone and run.
+Here's what I've been working on.
 
-## What I Build
+---
 
-### 🤖 Multi-Agent Systems — [Multi-Agent-Systems](https://github.com/vatsalkhemani/Multi-Agent-Systems)
-Systems where multiple AI agents collaborate, debate, and produce output no single agent could.
-- **Product Strategy Forge** — 9-agent system with cross-provider critique (Gemini challenges GPT-4o's conclusions). Parallel research, human approval gates, bidirectional handoffs
-- **Debate Arena** — 6-agent adversarial system. Moderator frames positions, advocates argue, devil's advocate attacks both, judge scores across 5 criteria
-- **Product Strategy Solo** — Same pipeline minus the Critic. Exists as a deliberate baseline to prove the value of structured disagreement
+### [Multi-Agent Systems](https://github.com/vatsalkhemani/Multi-Agent-Systems)
+Systems where multiple AI agents collaborate, debate, and build things no single agent could.
 
-### 🧠 AI Agents — [Agent-Factory](https://github.com/vatsalkhemani/Agent-Factory)
-5 agents, each demonstrating a distinct agentic pattern. Not 5 variations of the same thing.
-- **Marketing Campaign Agent** — Orchestrator-worker pattern with evaluator-optimizer loop. Scrapes real URLs, generates multi-channel content, self-evaluates and revises
-- **Data Analyst Agent** — Autonomous exploration with sandboxed hypothesis testing. Profiles CSV data, forms hypotheses, selects from 10 analysis tools, generates Plotly charts
-- **Research Agent** — Plan-execute-replan loop. Autonomously decides what to search, evaluates coverage, replans until satisfied
-- **Job Application Agent** — 7-phase pipeline with conditional self-revision. Parses resumes, researches companies, rewrites for ATS optimization
-- **Travel Planner Agent** — Structured output + Foursquare API integration + multi-turn refinement with interactive maps
+| Project | Agents | What it does |
+|---------|--------|-------------|
+| [Product Strategy Forge](https://github.com/vatsalkhemani/Multi-Agent-Systems/tree/main/product-strategy-forge) | 9 | Parallel research, cross-reference, and critique. Gemini challenges GPT-4o's conclusions. Failed sections loop back for revision. |
+| [Debate Arena](https://github.com/vatsalkhemani/Multi-Agent-Systems/tree/main/debate-arena) | 6 | Structured 3-round debate. Two advocates argue, a devil's advocate attacks both, a judge scores on 5 criteria. |
+| [Voyage Agents](https://github.com/vatsalkhemani/Multi-Agent-Systems/tree/main/voyage-agents) | 7 | Turn a trip idea into an interactive travel guide website. Parallel research, venue curation with coordinates, logistics, and a reviewer on a separate LLM. |
+| [Product Strategy Solo](https://github.com/vatsalkhemani/Multi-Agent-Systems/tree/main/product-strategy-solo) | 8 | Same pipeline as Forge without the critic. Exists to prove critique makes output measurably better. |
 
-### 🔍 RAG & Retrieval — [Multimodal_Retreival](https://github.com/vatsalkhemani/Multimodal_Retreival)
-Side-by-side comparison of text-only vs multimodal retrieval. Upload mixed content (videos, PDFs, images), index through parallel embedding paths, and see what multimodal catches that text-only misses.
+### Apps
+Full products built end-to-end with AI tools.
 
-### 💰 Vibe-Coded Apps
-Full products built end-to-end with AI tools:
-- **[SpendWise-AI](https://github.com/vatsalkhemani/SpendWise-AI)** — Cross-platform expense tracker with natural language input, voice, and receipt scanning (Azure Computer Vision OCR). 8 distinct AI functions. Flutter + Firebase + Azure OpenAI
-- **[ResumeOptimizer](https://github.com/vatsalkhemani/ResumeOptimizer)** — Upload a PDF resume, get AI-powered ATS optimization against any job description. Next.js + FastAPI + GPT-4o
+| App | What it does |
+|-----|-------------|
+| [SpendWise-AI](https://github.com/vatsalkhemani/SpendWise-AI) | Cross-platform expense tracker. Log via text, voice, or receipt photo. 8 AI functions for categorization, insights, and anomaly detection. Flutter + Firebase + Azure OpenAI. |
+| [ResumeOptimizer](https://github.com/vatsalkhemani/ResumeOptimizer) | Upload a resume, paste a job description, get AI-powered rewording, ATS keyword matching, and a clean PDF export. Next.js + FastAPI + GPT-4o. |
 
-### ⚡ Automations — [Automation_Lab](https://github.com/vatsalkhemani/Automation_Lab)
-Automated workflows running on GitHub Actions for $0/month:
-- **AI News Digest** — Daily cron that fetches from NewsAPI + 5 RSS feeds, deduplicates, curates through Gemini, and emails a formatted digest
-- **Weekly Learning** — Saturday cron that generates a ~1000-word article on a random knowledge topic
+### [Automations](https://github.com/vatsalkhemani/Automation_Lab)
+Workflows on GitHub Actions. $0/month.
 
-### 🛠️ Prompt Engineering — [skill_library](https://github.com/vatsalkhemani/skill_library)
-25+ Claude Code skills, heavily PM-focused. Top skills encode real methodologies: April Dunford positioning, Christensen disruption, 7 Powers, JTBD, Wardley Mapping.
+| Automation | What it does |
+|-----------|-------------|
+| [AI News Digest](https://github.com/vatsalkhemani/Automation_Lab/tree/main/ai-news-digest) | Daily cron. Pulls from NewsAPI + 5 RSS feeds, deduplicates, curates through Gemini, emails a formatted digest. |
+| [Weekly Learning](https://github.com/vatsalkhemani/Automation_Lab/tree/main/weekly-learning) | Saturday cron. Picks a random topic, generates a ~1000-word explainer, emails it. |
 
-## Tech I Use
+### [AI Experiments](https://github.com/vatsalkhemani/AIExperiments)
+Quick experiments across the AI stack.
+
+| Experiment | What it does |
+|-----------|-------------|
+| [Multimodal RAG](https://github.com/vatsalkhemani/AIExperiments/tree/main/multimodal-rag) | Embeds raw bytes (images, video, audio, PDFs) directly via Gemini embeddings. A text query matches against a diagram without ever describing it in words. Side-by-side comparison with text-only retrieval. |
+
+### [AI Agents](https://github.com/vatsalkhemani/Agent-Factory)
+5 agents, each built around a different agentic pattern. No shared code.
+
+| Agent | What it does |
+|-------|-------------|
+| [Marketing Campaign](https://github.com/vatsalkhemani/Agent-Factory/tree/main/agents/marketing_agent) | Scrapes product and competitor URLs, builds brand positioning, generates multi-channel content, scores each piece, revises until threshold is met. |
+| [Data Analyst](https://github.com/vatsalkhemani/Agent-Factory/tree/main/agents/data_analyst_agent) | Profiles CSVs computationally, forms hypotheses, selects from 10 analysis tools (LLM picks tools, never runs raw code), visualizes in Plotly. |
+| [Research](https://github.com/vatsalkhemani/Agent-Factory/tree/main/agents/research_agent) | Plans 3 search queries, scrapes results, scores coverage, replans targeting gaps. Loops until coverage is high or returns diminish. |
+| [Job Application](https://github.com/vatsalkhemani/Agent-Factory/tree/main/agents/job_application_agent) | Parses resume + JD, runs gap analysis, researches the company autonomously, rewrites for ATS, self-revises if score < 7/10. |
+| [Travel Planner](https://github.com/vatsalkhemani/Agent-Factory/tree/main/agents/travel_planner) | Pulls real venues from Foursquare, builds day-by-day itineraries with interactive maps, refines through conversation. |
+
+---
 
 `Python` `TypeScript` `Dart/Flutter` `OpenAI` `Google Gemini` `Azure AI` `Streamlit` `Next.js` `FastAPI` `Firebase` `ChromaDB`
 
-## Connect
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vatsal-khemani-39a483192/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vatsalkhemani/)
