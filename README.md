@@ -21,8 +21,18 @@ Full products built end-to-end with AI tools.
 
 | App | What it does |
 |-----|-------------|
+| [MBAkit](https://github.com/vatsalkhemani/MBAkit) | Toolkit for MBA students: cold emails, thank-you notes, resume bullets, STAR stories, LinkedIn outreach, coffee chat prep. Shipped to Wharton admit groups. Next.js + Gemini. Live at [mbakit.vercel.app](https://mbakit.vercel.app/). |
 | [SpendWise-AI](https://github.com/vatsalkhemani/SpendWise-AI) | Cross-platform expense tracker. Log via text, voice, or receipt photo. 8 AI functions for categorization, insights, and anomaly detection. Flutter + Firebase + Azure OpenAI. |
 | [ResumeOptimizer](https://github.com/vatsalkhemani/ResumeOptimizer) | Upload a resume, paste a job description, get AI-powered rewording, ATS keyword matching, and a clean PDF export. Next.js + FastAPI + GPT-4o. |
+| [broke-app](https://github.com/vatsalkhemani/broke-app) | Minimal expense tracker PWA. Log a spend in under 5 seconds. Offline-first, multi-currency, CSV export. Next.js + Firebase Auth. |
+
+### Learning websites
+Single-page sites that take you from zero to one on a topic.
+
+| Site | What's in it |
+|------|-------------|
+| [AI Zero to One](https://aizerotoone.netlify.app/) | 11-phase AI learning roadmap from basics to frontier. ~31 hours, with a retention test at the end. |
+| [PM Zero to One](https://pmzerotoone.netlify.app/) | PM craft, interview frameworks, AI-first PM overlay, mental models, reference cheat sheets. |
 
 ### [Automations](https://github.com/vatsalkhemani/Automation_Lab)
 Workflows on GitHub Actions. $0/month.
@@ -54,4 +64,4 @@ Quick experiments across the AI stack.
 
 `Python` `TypeScript` `Dart/Flutter` `OpenAI` `Google Gemini` `Azure AI` `Streamlit` `Next.js` `FastAPI` `Firebase` `ChromaDB`
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vatsalkhemani/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vatsal-khemani-39a483192/)
