@@ -27,12 +27,13 @@ Full products built end-to-end with AI tools.
 | [broke-app](https://github.com/vatsalkhemani/broke-app) | Minimal expense tracker PWA. Log a spend in under 5 seconds. Offline-first, multi-currency, CSV export. Next.js + Firebase Auth. |
 
 ### Learning websites
-Single-page sites that take you from zero to one on a topic.
+Sites built to take you from zero to one on a topic.
 
 | Site | What's in it |
 |------|-------------|
 | [AI Zero to One](https://aizerotoone.netlify.app/) | 11-phase AI learning roadmap from basics to frontier. ~31 hours, with a retention test at the end. |
 | [PM Zero to One](https://pmzerotoone.netlify.app/) | PM craft, interview frameworks, AI-first PM overlay, mental models, reference cheat sheets. |
+| [learning-swipe](https://github.com/vatsalkhemani/learning-swipe) | Long-form swipe library. 115 deep-dive cards across philosophy, religion, sciences, economics, history, India, US, health, culture, and more. Swipe between cards, tap to listen. Mobile-first PWA. Next.js + Web Speech API. |
 
 ### [Automations](https://github.com/vatsalkhemani/Automation_Lab)
 Workflows on GitHub Actions. $0/month.
