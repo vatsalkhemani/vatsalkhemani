@@ -6,6 +6,10 @@ Here's what I've been working on.
 
 ---
 
+### [Vatsal_OS - Personal AI harness](https://github.com/vatsalkhemani/harness-prompts)
+A personal agent harness that helps me run my life. Context, memory, and compounding rules so the system knows me and gets sharper every conversation. 
+
+
 ### [Multi-Agent Systems](https://github.com/vatsalkhemani/Multi-Agent-Systems)
 Systems where multiple AI agents collaborate, debate, and build things no single agent could.
 
