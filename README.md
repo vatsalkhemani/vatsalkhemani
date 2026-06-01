@@ -16,10 +16,11 @@ Full-stack applications that have come in handy for me and my peers.
 
 | App | What it does |
 |-----|-------------|
-| [MBAkit](https://github.com/vatsalkhemani/MBAkit) | Toolkit for MBA students: cold emails, thank-you notes, resume bullets, STAR stories, LinkedIn outreach, coffee chat prep. Shipped to Wharton admit groups. Next.js + Gemini. Live at [mbakit.vercel.app](https://mbakit.vercel.app/). |
+| [MBAkit](https://github.com/vatsalkhemani/MBAkit) | Toolkit for MBA students: cold emails, thank-you notes, resume bullets, STAR stories, LinkedIn outreach, coffee chat prep. Next.js + Gemini. Live at [mbakit.vercel.app](https://mbakit.vercel.app/). |
 | [SpendWise-AI](https://github.com/vatsalkhemani/SpendWise-AI) | Cross-platform expense tracker. Log via text, voice, or receipt photo. 8 AI functions for categorization, insights, and anomaly detection. Flutter + Firebase + Azure OpenAI. |
 | [ResumeOptimizer](https://github.com/vatsalkhemani/ResumeOptimizer) | Upload a resume, paste a job description, get AI-powered rewording, ATS keyword matching, and a clean PDF export. Next.js + FastAPI + GPT-4o. |
 | [broke-app](https://github.com/vatsalkhemani/broke-app) | Minimal expense tracker PWA. Log a spend in under 5 seconds. Offline-first, multi-currency, CSV export. Next.js + Firebase Auth. Live at [broke-manager-app.vercel.app](https://broke-manager-app.vercel.app/). |
+| [vibe-reader](https://github.com/vatsalkhemani/vibe-reader) | Chrome extension. Select any text on a page, listen via browser TTS. Built to turn articles into podcasts on commutes and walks. No subscription. |
 
 ### [Multi-Agent Systems](https://github.com/vatsalkhemani/Multi-Agent-Systems)
 Multi-agent systems. Each agent plays a specialized role, working toward a common goal the system delivers but no single agent could.
