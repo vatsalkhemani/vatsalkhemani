@@ -1,5 +1,7 @@
 # Hey, I'm Vatsal
 
+I'm currently pursuing my MBA at Wharton, majoring in AI for Business. I've worked at Microsoft both as a Software Engineer and a Product Manager across the B2B Enterprise space and Microsoft Copilot, where I got the opportunity to take AI solutions to production.
+
 I love building and tinkering with new tools and concepts. Building is the best way I learn, and the learnings feed back into everything I do, including the products I ship at work.
 
 Here's what I've been working on.
@@ -21,6 +23,7 @@ Full-stack applications that have come in handy for me and my peers.
 | [ResumeOptimizer](https://github.com/vatsalkhemani/ResumeOptimizer) | Upload a resume, paste a job description, get AI-powered rewording, ATS keyword matching, and a clean PDF export. Next.js + FastAPI + GPT-4o. |
 | [broke-app](https://github.com/vatsalkhemani/broke-app) | Minimal expense tracker PWA. Log a spend in under 5 seconds. Offline-first, multi-currency, CSV export. Next.js + Firebase Auth. Live at [broke-manager-app.vercel.app](https://broke-manager-app.vercel.app/). |
 | [vibe-reader](https://github.com/vatsalkhemani/vibe-reader) | Chrome extension. Select any text on a page, listen via browser TTS. Built to turn articles into podcasts on commutes and walks. No subscription. |
+| [recipe-notes](https://github.com/vatsalkhemani/recipe-notes) | Voice-note recipe capture. Record how someone explains a dish, AI transcribes and structures it into ingredients, steps, and tags. Cook Mode with step timers. Next.js + Firebase + Groq (Whisper + LLM). |
 
 ### [Multi-Agent Systems](https://github.com/vatsalkhemani/Multi-Agent-Systems)
 Multi-agent systems. Each agent plays a specialized role, working toward a common goal the system delivers but no single agent could.
@@ -67,6 +70,7 @@ Quick experiments across the AI stack.
 | Experiment | What it does |
 |-----------|-------------|
 | [Multimodal RAG](https://github.com/vatsalkhemani/AIExperiments/tree/main/multimodal-rag) | Experimenting with how different modalities (images, video, audio, text, PDFs) come together and get queried as one. A single search can reach what's in a video and what's in a text — outcomes you couldn't get before. |
+| [Road Clash](https://github.com/vatsalkhemani/AIExperiments/tree/main/road-rash-game) | Road Rash–style 3D motorcycle combat racer, runs entirely in the browser. Procedural valley terrain, 5 rival riders you can punch off their bikes, 3-lap races with minimap and speedometer. Three.js, vanilla JS, zero build step. |
 
 ---
 
