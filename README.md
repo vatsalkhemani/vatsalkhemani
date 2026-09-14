@@ -61,7 +61,7 @@ Sites built to take you from zero to one on a topic.
 | [Marketing Campaign](https://github.com/vatsalkhemani/Agent-Factory/tree/main/agents/marketing_agent) | Scrapes product and competitor URLs, builds brand positioning, generates multi-channel content, scores each piece, revises until threshold is met. |
 | [Data Analyst](https://github.com/vatsalkhemani/Agent-Factory/tree/main/agents/data_analyst_agent) | Profiles CSVs computationally, forms hypotheses, selects from 10 analysis tools (LLM picks tools, never runs raw code), visualizes in Plotly. |
 | [Research](https://github.com/vatsalkhemani/Agent-Factory/tree/main/agents/research_agent) | Plans 3 search queries, scrapes results, scores coverage, replans targeting gaps. Loops until coverage is high or returns diminish. |
-| [Job Application](https://github.com/vatsalkhemani/Agent-Factory/tree/main/agents/job_application_agent) | Parses resume + JD, runs gap analysis, researches the company autonomously, rewrites for ATS, self-revises if score < 7/10. |
+| [Job Application](https://github.com/vatsalkhemani/Agent-Factory/tree/main/agents/job_application_agent) | 7-phase pipeline with conditional self-revision: gap-analyzes a resume against a JD, researches the company autonomously, then loops the rewrite until it clears its own ATS threshold. |
 | [Travel Planner](https://github.com/vatsalkhemani/Agent-Factory/tree/main/agents/travel_planner) | Pulls real venues from Foursquare, builds day-by-day itineraries with interactive maps, refines through conversation. |
 
 ### [AI Experiments](https://github.com/vatsalkhemani/AIExperiments)
