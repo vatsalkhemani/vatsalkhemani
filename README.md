@@ -67,34 +67,31 @@ Sites built to take you from zero to one on a topic.
 ### [AI Experiments](https://github.com/vatsalkhemani/AIExperiments)
 Quick experiments across the AI stack.
 
-#### [Nightflight](https://github.com/vatsalkhemani/AIExperiments/tree/main/nightflight)
-First-person broom flight over Hogwarts at Christmas, in the browser. A feast in the Great Hall under a thousand floating candles, classes in session, a Quidditch match under way. Every asset procedural, nothing downloaded. Three.js + UnrealBloom, WebAudio, vanilla JS, zero build step.
-
-![Nightflight — the Great Hall at Christmas](https://raw.githubusercontent.com/vatsalkhemani/AIExperiments/main/nightflight/screenshots/great-hall.jpg)
-
 | Experiment | What it does |
 |-----------|-------------|
-| [Multimodal RAG](https://github.com/vatsalkhemani/AIExperiments/tree/main/multimodal-rag) | Experimenting with how different modalities (images, video, audio, text, PDFs) come together and get queried as one. A single search can reach what's in a video and what's in a text. |
-| [Road Clash](https://github.com/vatsalkhemani/AIExperiments/tree/main/road-rash-game) | Road Rash-style 3D motorcycle combat racer, runs entirely in the browser. Procedural valley terrain, 5 rival riders you can punch off their bikes, 3-lap races with minimap and speedometer. Three.js, vanilla JS, zero build step. |
+| [Nightflight](https://github.com/vatsalkhemani/AIExperiments/tree/main/nightflight) | Fly through Hogwarts at Christmas. A feast under floating candles, classes in session, a Quidditch match on. Every asset procedural, nothing downloaded. Built with Fable 5. Three.js, WebAudio, vanilla JS. |
+| [Road Clash](https://github.com/vatsalkhemani/AIExperiments/tree/main/road-rash-game) | Road Rash-style 3D motorcycle combat racer in the browser. Procedural valley terrain, 5 rival riders you can punch off their bikes, 3-lap races with minimap and speedometer. Three.js, vanilla JS, zero build step. |
+| [Multimodal RAG](https://github.com/vatsalkhemani/AIExperiments/tree/main/multimodal-rag) | Images, video, audio, text and PDFs queried as one index. A single search reaches what's inside a video and what's inside a document. Gemini Embedding 2, ChromaDB, Streamlit. |
 
 ### [Research Lab](https://github.com/vatsalkhemani/Research-experiments)
-Deep-dive market analyses, produced end to end with the research skills below. Each one is a dated snapshot: a deck, generated charts, and the sources behind them.
+Markets I wanted to understand properly. Each analysis is dated and ships with the deck, the charts, and the sources behind them.
 
 | Analysis | What it covers |
 |----------|---------------|
-| [The AI Race](https://github.com/vatsalkhemani/Research-experiments/tree/main/ai-race-2026) | Feb 2026. OpenAI vs Anthropic vs Gemini vs DeepSeek across consumer, enterprise, cost and capital. Anthropic had overtaken OpenAI in enterprise share (40% vs 27%) while OpenAI held consumer. 20 slides, 8 charts. |
+| [The AI Race](https://github.com/vatsalkhemani/Research-experiments/tree/main/ai-race-2026) | Feb 2026. OpenAI, Anthropic, Gemini and DeepSeek across consumer, enterprise, cost and capital. Anthropic ahead in enterprise at 40% against OpenAI's 27%, OpenAI still holding consumer, DeepSeek at a fraction of frontier cost. 20 slides, 8 charts. |
 
 ### [Skill Library](https://github.com/vatsalkhemani/skill_library)
-The Claude Code skills I actually use, generic and portable. Three I wrote from real use (resume review, application forms, cold outreach), the rest collected and credited. A good skill encodes judgment, what to check and what to refuse, not just steps.
+Skills I keep coming back to. Some written, some inherited. All portable, drop one into any project.
 
 ---
 
 ### What I learn from
-Repos that changed how I build. Not mine, worth your time.
 
-- [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) — where most of my agent patterns started. The RAG and multi-agent examples are the ones I kept coming back to.
-- [awesome-design-md](https://github.com/VoltAgent/voltagent) — DESIGN.md files from real design systems. Changed how I brief an AI on visual work.
-- [pm-skills-arsenal](https://github.com/Avyayalaya/pm-skills-arsenal) — the PM skills in my library that I did not write.
+| Repo | Why |
+|------|-----|
+| [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) | Where most of my agent patterns started. The RAG and multi-agent examples are the ones I go back to. |
+| [awesome-design-md](https://github.com/VoltAgent/voltagent) | DESIGN.md files from real design systems. Changed how I brief a model on visual work. |
+| [pm-skills-arsenal](https://github.com/Avyayalaya/pm-skills-arsenal) | The PM skill set I build on. |
 
 ---
 
