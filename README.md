@@ -80,18 +80,13 @@ Markets I wanted to understand properly. Each analysis is dated and ships with t
 |----------|---------------|
 | [The AI Race](https://github.com/vatsalkhemani/Research-experiments/tree/main/ai-race-2026) | Feb 2026. OpenAI, Anthropic, Gemini and DeepSeek across consumer, enterprise, cost and capital. Anthropic ahead in enterprise at 40% against OpenAI's 27%, OpenAI still holding consumer, DeepSeek at a fraction of frontier cost. 20 slides, 8 charts. |
 
-### [Skill Library](https://github.com/vatsalkhemani/skill_library)
-Skills I keep coming back to. Some written, some inherited. All portable, drop one into any project.
-
----
-
 ### What I learn from
 
 | Repo | Why |
 |------|-----|
+| [Skill Library](https://github.com/vatsalkhemani/skill_library) | Skills I keep coming back to. Some written, some inherited. All portable, drop one into any project. |
 | [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) | Where most of my agent patterns started. The RAG and multi-agent examples are the ones I go back to. |
 | [awesome-design-md](https://github.com/VoltAgent/voltagent) | DESIGN.md files from real design systems. Changed how I brief a model on visual work. |
-| [pm-skills-arsenal](https://github.com/Avyayalaya/pm-skills-arsenal) | The PM skill set I build on. |
 
 ---
 
