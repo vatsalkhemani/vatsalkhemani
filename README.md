@@ -8,7 +8,7 @@ Here's what I've been working on.
 
 ---
 
-### [Vatsal_OS - Personal AI harness](https://github.com/vatsalkhemani/harness-prompts)
+### [Vatsal_OS - Personal AI harness](https://github.com/vatsalkhemani/vatsal_os_harness)
 A personal agent harness that helps me run my life. Context, memory, and compounding rules so the system knows me and gets sharper every conversation.
 
 ---
@@ -67,10 +67,34 @@ Sites built to take you from zero to one on a topic.
 ### [AI Experiments](https://github.com/vatsalkhemani/AIExperiments)
 Quick experiments across the AI stack.
 
+#### [Nightflight](https://github.com/vatsalkhemani/AIExperiments/tree/main/nightflight)
+First-person broom flight over Hogwarts at Christmas, in the browser. A feast in the Great Hall under a thousand floating candles, classes in session, a Quidditch match under way. Every asset procedural, nothing downloaded. Three.js + UnrealBloom, WebAudio, vanilla JS, zero build step.
+
+![Nightflight — the Great Hall at Christmas](https://raw.githubusercontent.com/vatsalkhemani/AIExperiments/main/nightflight/screenshots/great-hall.jpg)
+
 | Experiment | What it does |
 |-----------|-------------|
-| [Multimodal RAG](https://github.com/vatsalkhemani/AIExperiments/tree/main/multimodal-rag) | Experimenting with how different modalities (images, video, audio, text, PDFs) come together and get queried as one. A single search can reach what's in a video and what's in a text — outcomes you couldn't get before. |
-| [Road Clash](https://github.com/vatsalkhemani/AIExperiments/tree/main/road-rash-game) | Road Rash–style 3D motorcycle combat racer, runs entirely in the browser. Procedural valley terrain, 5 rival riders you can punch off their bikes, 3-lap races with minimap and speedometer. Three.js, vanilla JS, zero build step. |
+| [Multimodal RAG](https://github.com/vatsalkhemani/AIExperiments/tree/main/multimodal-rag) | Experimenting with how different modalities (images, video, audio, text, PDFs) come together and get queried as one. A single search can reach what's in a video and what's in a text. |
+| [Road Clash](https://github.com/vatsalkhemani/AIExperiments/tree/main/road-rash-game) | Road Rash-style 3D motorcycle combat racer, runs entirely in the browser. Procedural valley terrain, 5 rival riders you can punch off their bikes, 3-lap races with minimap and speedometer. Three.js, vanilla JS, zero build step. |
+
+### [Research Lab](https://github.com/vatsalkhemani/Research-experiments)
+Deep-dive market analyses, produced end to end with the research skills below. Each one is a dated snapshot: a deck, generated charts, and the sources behind them.
+
+| Analysis | What it covers |
+|----------|---------------|
+| [The AI Race](https://github.com/vatsalkhemani/Research-experiments/tree/main/ai-race-2026) | Feb 2026. OpenAI vs Anthropic vs Gemini vs DeepSeek across consumer, enterprise, cost and capital. Anthropic had overtaken OpenAI in enterprise share (40% vs 27%) while OpenAI held consumer. 20 slides, 8 charts. |
+
+### [Skill Library](https://github.com/vatsalkhemani/skill_library)
+The Claude Code skills I actually use, generic and portable. Three I wrote from real use (resume review, application forms, cold outreach), the rest collected and credited. A good skill encodes judgment, what to check and what to refuse, not just steps.
+
+---
+
+### What I learn from
+Repos that changed how I build. Not mine, worth your time.
+
+- [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) — where most of my agent patterns started. The RAG and multi-agent examples are the ones I kept coming back to.
+- [awesome-design-md](https://github.com/VoltAgent/voltagent) — DESIGN.md files from real design systems. Changed how I brief an AI on visual work.
+- [pm-skills-arsenal](https://github.com/Avyayalaya/pm-skills-arsenal) — the PM skills in my library that I did not write.
 
 ---
 
