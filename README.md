@@ -19,9 +19,9 @@ Full-stack applications that have come in handy for me and my peers.
 | App | What it does |
 |-----|-------------|
 | [MBAkit](https://github.com/vatsalkhemani/MBAkit) | Toolkit for MBA students: cold emails, thank-you notes, resume bullets, STAR stories, LinkedIn outreach, coffee chat prep. Next.js + Gemini. Live at [mbakit.vercel.app](https://mbakit.vercel.app/). |
-| [SpendWise-AI](https://github.com/vatsalkhemani/SpendWise-AI) | The full-featured take on expense tracking. Log by text, voice or receipt photo, with 8 AI functions for categorisation, insights and anomaly detection. Flutter + Firebase + Azure OpenAI. |
+| [SpendWise-AI](https://github.com/vatsalkhemani/SpendWise-AI) | AI expense tracking. Log by text, voice or receipt photo, with 8 AI functions for categorisation, insights and anomaly detection. Flutter + Firebase + Azure OpenAI. |
 | [ResumeOptimizer](https://github.com/vatsalkhemani/ResumeOptimizer) | Upload a resume, paste a job description, get AI-powered rewording, ATS keyword matching, and a clean PDF export. Next.js + FastAPI + GPT-4o. |
-| [broke-app](https://github.com/vatsalkhemani/broke-app) | SpendWise stripped to one job. Building the feature-rich version taught me the real problem is friction at the moment of logging, so this one does a spend in under 5 seconds and nothing else. Offline-first, multi-currency, CSV export. Next.js + Firebase. Live at [broke-manager-app.vercel.app](https://broke-manager-app.vercel.app/). |
+| [broke-app](https://github.com/vatsalkhemani/broke-app) | Expense tracking without the feature overload. Log a spend in under 5 seconds, offline-first, multi-currency, CSV export. Next.js + Firebase. Live at [broke-manager-app.vercel.app](https://broke-manager-app.vercel.app/). |
 | [vibe-reader](https://github.com/vatsalkhemani/vibe-reader) | Chrome extension. Select any text on a page, listen via browser TTS. Built to turn articles into podcasts on commutes and walks. No subscription. |
 | [recipe-notes](https://github.com/vatsalkhemani/recipe-notes) | Voice-note recipe capture. Record how someone explains a dish, AI transcribes and structures it into ingredients, steps, and tags. Cook Mode with step timers. Next.js + Firebase + Groq (Whisper + LLM). |
 
@@ -34,17 +34,6 @@ Multi-agent systems. Each agent plays a specialized role, working toward a commo
 | [Debate Arena](https://github.com/vatsalkhemani/Multi-Agent-Systems/tree/main/debate-arena) | 6 | Structured 3-round debate. Two advocates argue, a devil's advocate attacks both, a judge scores on 5 criteria. |
 | [Voyage Agents](https://github.com/vatsalkhemani/Multi-Agent-Systems/tree/main/voyage-agents) | 7 | Turn a trip idea into an interactive travel guide website. Parallel research, venue curation with coordinates, logistics, and a reviewer on a separate LLM. |
 | [Product Strategy Solo](https://github.com/vatsalkhemani/Multi-Agent-Systems/tree/main/product-strategy-solo) | 8 | Same pipeline as Forge without the critic. Exists to prove critique makes output measurably better. |
-
-### [AI Agents](https://github.com/vatsalkhemani/Agent-Factory)
-5 agents, each built around a different agentic pattern. No shared code.
-
-| Agent | What it does |
-|-------|-------------|
-| [Marketing Campaign](https://github.com/vatsalkhemani/Agent-Factory/tree/main/agents/marketing_agent) | Scrapes product and competitor URLs, builds brand positioning, generates multi-channel content, scores each piece, revises until threshold is met. |
-| [Data Analyst](https://github.com/vatsalkhemani/Agent-Factory/tree/main/agents/data_analyst_agent) | Profiles CSVs computationally, forms hypotheses, selects from 10 analysis tools (LLM picks tools, never runs raw code), visualizes in Plotly. |
-| [Research](https://github.com/vatsalkhemani/Agent-Factory/tree/main/agents/research_agent) | Plans 3 search queries, scrapes results, scores coverage, replans targeting gaps. Loops until coverage is high or returns diminish. |
-| [Job Application](https://github.com/vatsalkhemani/Agent-Factory/tree/main/agents/job_application_agent) | 7-phase pipeline with conditional self-revision: gap-analyzes a resume against a JD, researches the company autonomously, then loops the rewrite until it clears its own ATS threshold. |
-| [Travel Planner](https://github.com/vatsalkhemani/Agent-Factory/tree/main/agents/travel_planner) | Pulls real venues from Foursquare, builds day-by-day itineraries with interactive maps, refines through conversation. |
 
 ### [AI Experiments](https://github.com/vatsalkhemani/AIExperiments)
 Quick experiments across the AI stack.
@@ -79,6 +68,17 @@ Markets I wanted to understand properly. Each analysis is dated and ships with t
 | Analysis | What it covers |
 |----------|---------------|
 | [The AI Race](https://github.com/vatsalkhemani/Research-experiments/tree/main/ai-race-2026) | Feb 2026. OpenAI, Anthropic, Gemini and DeepSeek across consumer, enterprise, cost and capital. Anthropic ahead in enterprise at 40% against OpenAI's 27%, OpenAI still holding consumer, DeepSeek at a fraction of frontier cost. 20 slides, 8 charts. |
+
+### [AI Agents](https://github.com/vatsalkhemani/Agent-Factory)
+5 agents, each built around a different agentic pattern. No shared code.
+
+| Agent | What it does |
+|-------|-------------|
+| [Marketing Campaign](https://github.com/vatsalkhemani/Agent-Factory/tree/main/agents/marketing_agent) | Scrapes product and competitor URLs, builds brand positioning, generates multi-channel content, scores each piece, revises until threshold is met. |
+| [Data Analyst](https://github.com/vatsalkhemani/Agent-Factory/tree/main/agents/data_analyst_agent) | Profiles CSVs computationally, forms hypotheses, selects from 10 analysis tools (LLM picks tools, never runs raw code), visualizes in Plotly. |
+| [Research](https://github.com/vatsalkhemani/Agent-Factory/tree/main/agents/research_agent) | Plans 3 search queries, scrapes results, scores coverage, replans targeting gaps. Loops until coverage is high or returns diminish. |
+| [Job Application](https://github.com/vatsalkhemani/Agent-Factory/tree/main/agents/job_application_agent) | 7-phase pipeline with conditional self-revision: gap-analyzes a resume against a JD, researches the company autonomously, then loops the rewrite until it clears its own ATS threshold. |
+| [Travel Planner](https://github.com/vatsalkhemani/Agent-Factory/tree/main/agents/travel_planner) | Pulls real venues from Foursquare, builds day-by-day itineraries with interactive maps, refines through conversation. |
 
 ### What I learn from
 
