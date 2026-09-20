@@ -19,9 +19,9 @@ Full-stack applications that have come in handy for me and my peers.
 | App | What it does |
 |-----|-------------|
 | [MBAkit](https://github.com/vatsalkhemani/MBAkit) | Toolkit for MBA students: cold emails, thank-you notes, resume bullets, STAR stories, LinkedIn outreach, coffee chat prep. Next.js + Gemini. Live at [mbakit.vercel.app](https://mbakit.vercel.app/). |
-| [SpendWise-AI](https://github.com/vatsalkhemani/SpendWise-AI) | Cross-platform expense tracker. Log via text, voice, or receipt photo. 8 AI functions for categorization, insights, and anomaly detection. Flutter + Firebase + Azure OpenAI. |
+| [SpendWise-AI](https://github.com/vatsalkhemani/SpendWise-AI) | The full-featured take on expense tracking. Log by text, voice or receipt photo, with 8 AI functions for categorisation, insights and anomaly detection. Flutter + Firebase + Azure OpenAI. |
 | [ResumeOptimizer](https://github.com/vatsalkhemani/ResumeOptimizer) | Upload a resume, paste a job description, get AI-powered rewording, ATS keyword matching, and a clean PDF export. Next.js + FastAPI + GPT-4o. |
-| [broke-app](https://github.com/vatsalkhemani/broke-app) | Minimal expense tracker PWA. Log a spend in under 5 seconds. Offline-first, multi-currency, CSV export. Next.js + Firebase Auth. Live at [broke-manager-app.vercel.app](https://broke-manager-app.vercel.app/). |
+| [broke-app](https://github.com/vatsalkhemani/broke-app) | SpendWise stripped to one job. Building the feature-rich version taught me the real problem is friction at the moment of logging, so this one does a spend in under 5 seconds and nothing else. Offline-first, multi-currency, CSV export. Next.js + Firebase. Live at [broke-manager-app.vercel.app](https://broke-manager-app.vercel.app/). |
 | [vibe-reader](https://github.com/vatsalkhemani/vibe-reader) | Chrome extension. Select any text on a page, listen via browser TTS. Built to turn articles into podcasts on commutes and walks. No subscription. |
 | [recipe-notes](https://github.com/vatsalkhemani/recipe-notes) | Voice-note recipe capture. Record how someone explains a dish, AI transcribes and structures it into ingredients, steps, and tags. Cook Mode with step timers. Next.js + Firebase + Groq (Whisper + LLM). |
 
@@ -34,24 +34,6 @@ Multi-agent systems. Each agent plays a specialized role, working toward a commo
 | [Debate Arena](https://github.com/vatsalkhemani/Multi-Agent-Systems/tree/main/debate-arena) | 6 | Structured 3-round debate. Two advocates argue, a devil's advocate attacks both, a judge scores on 5 criteria. |
 | [Voyage Agents](https://github.com/vatsalkhemani/Multi-Agent-Systems/tree/main/voyage-agents) | 7 | Turn a trip idea into an interactive travel guide website. Parallel research, venue curation with coordinates, logistics, and a reviewer on a separate LLM. |
 | [Product Strategy Solo](https://github.com/vatsalkhemani/Multi-Agent-Systems/tree/main/product-strategy-solo) | 8 | Same pipeline as Forge without the critic. Exists to prove critique makes output measurably better. |
-
-### [Automations](https://github.com/vatsalkhemani/Automation_Lab)
-Workflows on GitHub Actions. $0/month.
-
-| Automation | What it does |
-|-----------|-------------|
-| [AI News Digest](https://github.com/vatsalkhemani/Automation_Lab/tree/main/ai-news-digest) | Daily cron. Pulls from NewsAPI + 5 RSS feeds, deduplicates, curates through Gemini, emails a formatted digest. |
-| [Weekly Learning](https://github.com/vatsalkhemani/Automation_Lab/tree/main/weekly-learning) | Saturday cron. Picks a random topic, generates a ~1000-word explainer, emails it. |
-
-### Learning websites
-Sites built to take you from zero to one on a topic.
-
-| Site | What's in it |
-|------|-------------|
-| [AI Zero to One](https://github.com/vatsalkhemani/ai-roadmap-site) | 11-phase AI roadmap from basics to frontier. ~31 hours, free resources only, with a retention test at the end. Live at [aizerotoone.netlify.app](https://aizerotoone.netlify.app/). |
-| [PM Zero to One](https://github.com/vatsalkhemani/ProductManagementLearnings) | PM craft, interview frameworks, AI-first PM overlay, mental models, reference cheat sheets. Live at [pmzerotoone.netlify.app](https://pmzerotoone.netlify.app/). |
-| [Cookbook](https://github.com/vatsalkhemani/cookbook) | 52 recipes written for the phone next to the stove. Phone-first, mobile-optimized, markdown sources rebuild a single static HTML page. Live at [cookingzerotoone.netlify.app](https://cookingzerotoone.netlify.app/). |
-| [learning-swipe](https://github.com/vatsalkhemani/learning-swipe) | Long-form swipe library. 115 deep-dive cards across philosophy, religion, sciences, economics, history, India, US, health, culture, and more. Swipe between cards, tap to listen. Mobile-first PWA. Next.js + Web Speech API. Live at [learning-swipe.vercel.app](https://learning-swipe.vercel.app/). |
 
 ### [AI Agents](https://github.com/vatsalkhemani/Agent-Factory)
 5 agents, each built around a different agentic pattern. No shared code.
@@ -73,6 +55,24 @@ Quick experiments across the AI stack.
 | [Road Clash](https://github.com/vatsalkhemani/AIExperiments/tree/main/road-rash-game) | Road Rash-style 3D motorcycle combat racer in the browser. Procedural valley terrain, 5 rival riders you can punch off their bikes, 3-lap races with minimap and speedometer. Three.js, vanilla JS, zero build step. |
 | [Multimodal RAG](https://github.com/vatsalkhemani/AIExperiments/tree/main/multimodal-rag) | Images, video, audio, text and PDFs queried as one index. A single search reaches what's inside a video and what's inside a document. Gemini Embedding 2, ChromaDB, Streamlit. |
 
+### [Automations](https://github.com/vatsalkhemani/Automation_Lab)
+Workflows on GitHub Actions. $0/month.
+
+| Automation | What it does |
+|-----------|-------------|
+| [AI News Digest](https://github.com/vatsalkhemani/Automation_Lab/tree/main/ai-news-digest) | Daily cron. Pulls from NewsAPI + 5 RSS feeds, deduplicates, curates through Gemini, emails a formatted digest. |
+| [Weekly Learning](https://github.com/vatsalkhemani/Automation_Lab/tree/main/weekly-learning) | Saturday cron. Picks a random topic, generates a ~1000-word explainer, emails it. |
+
+### Learning websites
+Sites built to take you from zero to one on a topic.
+
+| Site | What's in it |
+|------|-------------|
+| [AI Zero to One](https://github.com/vatsalkhemani/ai-roadmap-site) | 11-phase AI roadmap from basics to frontier. ~31 hours, free resources only, with a retention test at the end. Live at [aizerotoone.netlify.app](https://aizerotoone.netlify.app/). |
+| [PM Zero to One](https://github.com/vatsalkhemani/ProductManagementLearnings) | PM craft, interview frameworks, AI-first PM overlay, mental models, reference cheat sheets. Live at [pmzerotoone.netlify.app](https://pmzerotoone.netlify.app/). |
+| [Cookbook](https://github.com/vatsalkhemani/cookbook) | 52 recipes written for the phone next to the stove. Phone-first, mobile-optimized, markdown sources rebuild a single static HTML page. Live at [cookingzerotoone.netlify.app](https://cookingzerotoone.netlify.app/). |
+| [learning-swipe](https://github.com/vatsalkhemani/learning-swipe) | Long-form swipe library. 115 deep-dive cards across philosophy, religion, sciences, economics, history, India, US, health, culture, and more. Swipe between cards, tap to listen. Mobile-first PWA. Next.js + Web Speech API. Live at [learning-swipe.vercel.app](https://learning-swipe.vercel.app/). |
+
 ### [Research Lab](https://github.com/vatsalkhemani/Research-experiments)
 Markets I wanted to understand properly. Each analysis is dated and ships with the deck, the charts, and the sources behind them.
 
@@ -87,6 +87,7 @@ Markets I wanted to understand properly. Each analysis is dated and ships with t
 | [Skill Library](https://github.com/vatsalkhemani/skill_library) | Skills I keep coming back to. Some written, some inherited. All portable, drop one into any project. |
 | [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) | Where most of my agent patterns started. The RAG and multi-agent examples are the ones I go back to. |
 | [awesome-design-md](https://github.com/VoltAgent/voltagent) | DESIGN.md files from real design systems. Changed how I brief a model on visual work. |
+
 
 ---
 
